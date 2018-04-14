@@ -4,7 +4,7 @@
 schema:
   schema_id: cangjie5
   name: 倉頡五代
-  version: "0.29"
+  version: "0.30"
   author:
     - 發明人 朱邦復先生
   description: |
@@ -103,4 +103,4 @@ recognizer:
   import_preset: default
   patterns:
     punct: '^/([0-9]0?|[A-Za-z]+)$'
-    reverse_lookup: "`[a-z]*'?$|[a-z]*'$"
+    reverse_lookup: "`[a-z]*'?$|[a-z]+'$"
