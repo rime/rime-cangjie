@@ -2,7 +2,7 @@
 
 配方： ℞ **cangjie**
 
-[Rime](http://rime.im) 倉頡輸入方案
+[Rime](https://rime.im) 倉頡輸入方案
 
 ## 安裝
 
