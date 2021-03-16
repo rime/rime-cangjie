@@ -27297,6 +27297,7 @@ encoder:
 䘭	lmig
 䙣	lmky
 䙐	lmrb
+䫍	lmsyc
 䙠	lmto
 䙅	lmwv
 䘰	lnkm
@@ -27368,7 +27369,6 @@ encoder:
 䩁	lyhuu
 䘻	lyib
 䘪	lyiu
-䫍	lmsyc
 㻗	lymgi
 䘣	lymp
 㐟	lyn
@@ -30640,8 +30640,8 @@ encoder:
 䛵	yrbbe
 㙜	yrbg
 䯨	yrbk
-䯩	yrbu
 䛁	yrbmm
+䯩	yrbu
 䚷	yrcms
 䛦	yrcor
 䛇	yrcr
@@ -53246,7 +53246,6 @@ encoder:
 𠪪	mhog
 𤛆	mhokq
 𧰾	mhomi
-𬌗	mhomr
 𠪍	mhou
 𢗬	mhp
 𢜍	mhp
@@ -79372,3 +79371,4 @@ encoder:
 𫜉	ywwlb
 𫐼	yybs
 𫑉	yysb
+𬌗	mhomr
