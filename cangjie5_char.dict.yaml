@@ -1,0 +1,14 @@
+# encoding: utf-8
+#
+# 倉頡五代基礎單字碼表
+#
+
+---
+name: "cangjie5_char"
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: true
+max_phrase_length: 1  # 不導入詞組，僅讀取字頻
+import_tables:
+  - cangjie5.base
+...

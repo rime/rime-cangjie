@@ -4,7 +4,7 @@
 schema:
   schema_id: cangjie5_express
   name: 倉頡五代·快打模式
-  version: "2018.04.14"
+  version: "2026.05.08"
   author:
     - 發明人 朱邦復先生
   description: |
@@ -12,7 +12,8 @@ schema:
     碼表源自倉頡之友發佈的《五倉世紀版》
     www.chinesecj.com
     快打模式：
-      - 取消連打
+      - 僅限基礎單字，減少重碼
+      - 取消詞兒連打
       - 無重碼自動上屏，有重碼頂字上屏
       - 取消 , . 翻頁
       - 取消拼音混打
@@ -27,8 +28,6 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
-  - name: extended_charset
-    states: [ 常用, 增廣 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
 
@@ -64,7 +63,7 @@ speller:
   #max_code_length: 5  # 僅五碼自動上屏
 
 translator:
-  dictionary: cangjie5
+  dictionary: cangjie5_char
   prism: cangjie5_express
   enable_charset_filter: true
   enable_sentence: false
