@@ -29,6 +29,7 @@ columns:
   - stem
 import_tables:
   - cangjie5.base
+  - cangjie5.stem
   - cangjie5.extended
 encoder:
   exclude_patterns:

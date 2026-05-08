@@ -22,7 +22,6 @@ version: "1.0"
 columns:
   - text
   - code
-  - stem
 ...
 
 𫪘	rsko
