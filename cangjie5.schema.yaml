@@ -57,6 +57,13 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " ;"
   #max_code_length: 5  # 五碼頂字上屏
+  algebra:
+    - 'derive/^([^z]{1})[^z]+([^z]{1})$/$1z$2/'
+    - 'derive/^([^z]{1})[^z]+([^z]{2})$/$1z$2/'
+    - 'derive/^([^z]{1})[^z]+([^z]{3})$/$1z$2/'
+    - 'derive/^([^z]{2})[^z]+([^z]{1})$/$1z$2/'
+    - 'derive/^([^z]{2})[^z]+([^z]{2})$/$1z$2/'
+    - 'derive/^([^z]{3})[^z]+([^z]{1})$/$1z$2/'
 
 translator:
   dictionary: cangjie5
